@@ -1,38 +1,116 @@
-.App {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800;900&display=swap');
+.Display{
+  height: 844px;
+  width: 390px;
+  background-color: #F6F7FA;
+  margin: 100px;
+  margin-left:900px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.network{
+  margin-top: -8%;
+}
+.camera{
+  width: 161px;
+  height: 33px;
+  background-color: black;
+  position: absolute;
+  margin-left: 115px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: -1.8%;
+}
+.Brandlogo{
+  height: 150px;
+  width: 150px;
+  margin-top: 290px;
+  margin-left: 30%;
+}
+.titleticket{
+  font-family: 'Inter', sans-serif;
+  color: #25AAD2;
+  font-size: 30px;
   text-align: center;
+  font-weight: 700;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.booking{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color:#26304B
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.linktofirst{
+  text-decoration: none;
 }
+.pointcircle{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  padding: -10%;
+  background-color: #25AAD2;
+  border: 1px solid none;
+  
+}
+.explore1image{
+  height: 350px;
+  margin-top: -10%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.splash1h1{
+  font-family: 'Inter', sans-serif ;
+  font-size: 40px;
+  font-weight: 900;
+  color:#26304B
+}
+.splash2h1{
+  font-family: 'Inter', sans-serif ;
+  font-size: 40px;
+  font-weight: 900;
+  color:#26304B
+}
+.explore2image{
+  height: 350px;
+  margin-top: -10%;
+}
+.explore3image{
+  height: 395px;
+  margin-top: -10%;
+}
+.loginlogo{
+  height: 100px;
+  width: 100px;
+  margin-top: 20%;
+}
+.Welcomeloginh1{
+  font-family: 'Inter', sans-serif ;
+  font-size: 40px;
+  font-weight: 900;
+  color:#26304B
+}
+.Welcomeloginspan{
+  font-family: 'Inter', sans-serif ;
+  color: #25AAD2;
+}
+.welcomloginh2{
+  background-color: #25AAD2;
+  color: #F6F7FA;
+  font-family: 'Inter', sans-serif ;
+  font-weight: 500;
+  font-size: 25px;
+}
+.welcomrloginhr{
+  height: 2px;
+  width: 320px;
+  background-color: rgb(47, 47, 47);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.welcomrloginp{
+  font-family: 'Inter', sans-serif ;
+  font-weight: 500;
+}
+.welcomrloginspan{
+  color: #4C66EE;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
